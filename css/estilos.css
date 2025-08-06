@@ -1,0 +1,72 @@
+html, body{
+    height: 100%; 
+    margin: 0;
+    font-family: sans-serif;
+    color: #1d0202;
+}
+
+.parallax1{
+    position: relative; 
+    background-image: url("../img/gemeas_lendarias.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption{
+    position: absolute; 
+    left: 0; 
+    top: 50%; 
+    width: 100%; 
+    text-align: center;
+}
+
+.caption span.border{
+    background-color: darkslateblue;
+    color: white;
+    padding: 20px; 
+    font-size: 25px;
+    letter-spacing: 10px;
+    
+}
+
+.caption span.evoluCaption{
+    background-color: indigo;
+    color: white;
+    padding: 20px; 
+    font-size: 25px;
+    letter-spacing: 10px;
+    
+}
+
+.parallax2{
+    position: relative;
+    background-image: url(../img/glastrier\ ou\ spectrier.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3{
+    position: relative;
+    background-image: url(../img/the\ crown\ tundra.png);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    background-color: #d1ebf7;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.box h3{
+    text-align: center;
+}
